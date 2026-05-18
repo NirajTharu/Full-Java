@@ -10,8 +10,6 @@
 // 1. Declaration
 // 2. Assignment
 
-import java.text.ListFormat.Style;
-
 public class variables {
     public static void main(String[] args) {
         
