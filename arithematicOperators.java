@@ -55,8 +55,9 @@ public class arithematicOperators {
 
         number5--;
         System.out.println("The value is " + number5);
-
         // ===== ORDER OF THE OPERATORS(P-E-M-D-A-S)
+        // process is done in left to right
+        // parenthesis => () , Explonent => 2^3, Multiplication => * , Division => / , Addition => +, Subtraction => -
         double result = 3 + 4 * (4 - 3) / 2.2;
         System.out.println("\nThe result of the expression is: "+ result);
     }
