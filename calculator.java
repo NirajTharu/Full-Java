@@ -20,18 +20,12 @@ public class calculator {
         System.out.print("Enter the second number: ");
         num2 = scanner.nextDouble();
 
-        switch (operator) {
-            case '+':
-                result = num1 + num2;
-                break;
-        
-          case '-':
-                result = num1 - num2;
-                break;
-          case '*':
-                result = num1 * num2;
-                break;
-          case '/':
+        switch (operator) 
+        {
+            case '+':result = num1 + num2; break;
+            case '-':result = num1 - num2; break;
+            case '*':result = num1 * num2; break;
+            case '/':
                {
                 if(num2 == 0)
                 {
@@ -44,21 +38,18 @@ public class calculator {
                 }
                }
                 break;
-          case '^':
-                result = Math.pow(num1,num2);
-                break;
-          default: 
-          {
-            System.out.println("Invalid Operator.");
-            validOperaton = false;
-          }
+            case '^':result = Math.pow(num1,num2); break;
+            default: 
+                {
+                    System.out.println("Invalid Operator.");
+                    validOperaton = false;
+                }
 
         }
-        if(validOperaton)
-        {
-            System.out.println(result);
-        }
-        
+            if(validOperaton)
+                {
+                    System.out.println(result);
+                }
         scanner.close();
     }
 }
