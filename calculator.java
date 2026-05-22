@@ -58,7 +58,7 @@ public class calculator {
         {
             System.out.println(result);
         }
-       
+        
         scanner.close();
     }
 }
