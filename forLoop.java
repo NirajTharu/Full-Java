@@ -28,5 +28,6 @@ public class forLoop {
         }
         System.out.println("Happy New year!");
          
+        scanner.close();
     }
 }
