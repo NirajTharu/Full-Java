@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class userInputInArray {
@@ -11,7 +10,7 @@ public class userInputInArray {
 
         System.out.print("What number of food you want?: ");
         sizeoFArray = scanner.nextInt();
-        
+
         // To clear the input buffer
         scanner.nextLine();
 
