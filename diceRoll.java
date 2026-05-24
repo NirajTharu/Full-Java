@@ -7,6 +7,12 @@ public class diceRoll {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         // Dice roll Program
+        // Declare variables
+        // Get the number of dice from the user
+        // Check if the number of dice is greater than 0
+        // Roll all the dice
+        // Get the total 
+        // Display ASCII ART Of DICE
 
         int numOfDice;
         int total = 0;
@@ -26,12 +32,7 @@ public class diceRoll {
         }else{
             System.out.println("The number of dice should be grater than 0.");
         }
-        // Declare variables
-        // Get the number of dice from the user
-        // Check if the number of dice is greater than 0
-        // Roll all the dice
-        // Get the total 
-        // Display ASCII ART Of DICE
+        
         scanner.close(); 
     }
     static void printDie(int roll)
