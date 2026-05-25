@@ -21,6 +21,12 @@ public class staticKeyWord {
             new friends("Kelly"),
             new friends("Maxim")
         };
-        friends.showFriends();  
+        friends.showFriends();
+        
+        System.out.println("The name of friends are: ");  
+        for(friends friend : friendsList)
+        {
+            System.out.println(friend.name);
+        }
     }
 }
