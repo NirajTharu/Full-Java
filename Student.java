@@ -1,5 +1,6 @@
 public class Student {
     
+    // This one is connected with constructor.java
     String name;
     int age;
     double gpa;

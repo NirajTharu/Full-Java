@@ -1,5 +1,6 @@
 public class Car {
     
+    // This file is connected with object.java file
     String make = "Ford"; 
     String model = "Mustang";
     int year = 2025;

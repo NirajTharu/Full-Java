@@ -1,6 +1,6 @@
 public class constructor {
     public static void main(String[] args) {
-        
+        // This one is connected with Student.java
         // Constructor is a special method to initialize objects. You can pass argumsnts to the constructor and set up initial value.
         Student student1 = new Student("Nikita",23,3.5);
         Student student2 = new Student("Nikihil",18,3.3);
